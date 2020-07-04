@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEEDBACK"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="683dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="GIVE YOUR FEEDBACK"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#E82E20"
+            android:background="#F4E240"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="आज का दिन हर तरफ से सहयोगात्मक और सकारात्मक वातावरण वाला रह सकता है। लोग खुद आपकी मदद के लिए आगे आ सकते हैं। किसी को आपकी बातों और विचारों से काफी प्रेरणा मिल सकती है। आपको आज अपनी छवि को मजबूत करने के लिए काम करने का बहुत अच्छा समय है। आपका अपने प्रियजनों के साथ समय बहुत अच्छा गुजरेगा।
+करियर - आपकी टीम आपके काम से प्रेरित है। वे मदद के लिए आपके पास आएंगे।
+लव - अपने प्रेमी से बात करें, वे आपको कोई राज बता सकते हैं। आपका साथी आपके साथ अपनी रुचियों को साझा करना पसंद करता है।
+"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+
+</LinearLayout>

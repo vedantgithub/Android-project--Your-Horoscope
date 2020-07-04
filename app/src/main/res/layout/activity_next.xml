@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".Next">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/next_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="text"
+                android:textSize="20sp">
+
+            </TextView>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/next_txt"
+
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <Button
+                    android:id="@+id/prev_bton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="0dp"
+                    android:background="#E91E63"
+                    android:text="SPEECH"
+                    android:drawableLeft="@drawable/ic_speak"/>
+
+
+
+                <Button
+                    android:id="@+id/stop_bton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="0dp"
+                    android:background="#E91E63"
+                    android:text="Stop"
+                    android:drawableLeft="@drawable/ic_stop"/>
+
+
+
+                <Button
+                    android:id="@+id/copy_bton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="0dp"
+                    android:background="#E91E63"
+                    android:text="COPY"
+                    android:drawableLeft="@drawable/ic_copy"/>
+
+
+                <Button
+                    android:id="@+id/share_bton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="0dp"
+                    android:background="#E91E63"
+                    android:text="SHARE"
+                    android:drawableLeft="@drawable/ic_speak"/>
+
+                <Button
+                    android:id="@+id/next_bton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="0dp"
+                    android:background="#E91E63"
+                    android:text="NEXT"
+                    android:drawableLeft="@drawable/ic_speak"/>
+
+
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
